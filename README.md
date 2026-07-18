@@ -28,7 +28,11 @@ You need Python 3.x installed on your machine.
 ### Installation & Setup
 
 1. Clone or download this repository.
-2. Activate the virtual environment:
+2. Create a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   ```
+3. Activate the virtual environment:
    - **macOS/Linux:**
      ```bash
      source .venv/bin/activate
@@ -41,7 +45,7 @@ You need Python 3.x installed on your machine.
      ```cmd
      .venv\Scripts\activate.bat
      ```
-3. Install Pygame in your virtual environment:
+4. Install Pygame in your virtual environment:
    ```bash
    pip install pygame
    ```
